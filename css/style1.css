@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    width: 650px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    cursor: pointer;
+}
+.box-img{
+    width: 100%;
+    height: 100%;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    position: relative;
+}
+.left-icon{
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+.right-icon{
+    position: absolute;
+    bottom: 150px;
+    right: 30px;
+}
+.icons i{
+    font-size: 55px;
+    color: #fff;
+}
+.number{
+     margin-right: 20px; 
+}
+.date-time{
+    background-color: rgba(24,148,160,.8);
+    color: #fff;
+    font-weight: bold;
+    width: 210px;
+    padding: 7px 8px; 
+    position: absolute; 
+    bottom: 105px;
+}
+.date-time span{
+   font-size: 18px;
+   margin-left: 10px;
+}
+.box-footer{
+    background-color: rgb(59, 58, 58);
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+.box-footer p{
+    font-size: 21px;
+    padding: 8px;
+    font-weight: bold;
+}
